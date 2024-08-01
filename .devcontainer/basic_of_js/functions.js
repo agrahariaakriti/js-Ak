@@ -20,3 +20,13 @@ let s="aakriti";
 s=s+"agrahari";
 console.log(s);
 console.log(s);
+let compare=(a,b)=>{
+    return b-a;
+}
+let a=[22,1,34,5,2,565,31,4,58949];
+console.log(a.sort(compare));
+console.log(a);
+console.log(a.reverse());
+console.log(a.splice(3,2,1000,100001,10002,1003,10004));
+console.log(a);
+
